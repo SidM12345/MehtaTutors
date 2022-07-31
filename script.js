@@ -36,5 +36,12 @@ $(document).ready(function(){
         backSpeed: 70,
         loop: true
     });
-    
 });
+function SubForm (){
+    $.ajax({
+        url:"https://api.apispreadsheets.com/data/Wayh99yZQ3UOcGw3/",
+        type:"post",
+        data:$("#myForm").serializeArray(),
+    });
+    alert("Thank You for Submitting")
+}
