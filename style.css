@@ -440,7 +440,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
-    text-align: justify;
+    text-align: left;
 }
 .contact .contact-content .left a{
     color:crimson
