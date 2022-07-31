@@ -306,7 +306,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
-    text-align: left;
+    text-align: justify;
 }
 .contact .contact-content .left a{
     color:crimson
